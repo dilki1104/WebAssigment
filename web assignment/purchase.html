@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">"
+    <title>Purchase Now</title>
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div class="bg">
+    <div>
+        <div class="header">
+        
+             <header>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img class="logo" src="images/logo2.JPG" alt="">
+             </header>
+             
+             <nav id="mainNav">
+                
+                 <div class="header-right">
+                 
+                         <a href="index.html">Home</span></a>
+                         <a href="Types_of_tea.html">Types of tea</span></a>
+                         <a href="manufacturer.html">Manufacturers of tea</span></a>
+                         <a href="contact_us.html">Contact us</span></a>
+                         <a href="qualification.html">Purchase now</span></a>
+                         
+             </nav>
+         </div>
+     </div>
+    
+     <hr><hr>
+
+
+     <div class="wrapper">
+        <div class="content">
+          <h1>Tea Ordering System</h1>
+          <p>To provide you with the best.</p>
+        </div>
+      
+        <div class="form">
+      
+          <div class="top-form">
+            <div class="inner-form">
+              <div class="label">Tea choice</div>
+              <select class="menue" id="menue">
+                <option value="1000" >Dilma</option>
+                <option value="1500" selected>Jones</option>
+                <option value="1000" >George Steuart</option>
+                <option value="2000"  >Malwatte Valley</option>
+                <option value="1000" >Prestige Ceylon teas</option>
+                <option value="2000" >Empire tea</option>
+            </select>
+
+
+            </div>
+            <div class="inner-form">
+              <div class="label">Select Size</div>
+              <select class="cus" id="size">
+                <option value="1000" >Small</option>
+                <option value="2500" selected>Medium</option>
+                <option value="5000" >Large</option>
+            </select>
+
+
+            </div>
+            <div class="inner-form">
+              <div class="label">Packaging type</div>
+              <select class="cus" id="type1">
+                <option value="1000" >Paper Pouches</option>
+                <option value="1500" >Tins</option>
+                <option value="2000" selected>Bags</option>
+                
+            </select>
+            </div>
+          </div>
+      
+          <div class="middle-form">
+            <div class="inner-form">
+              <div class="label">Extras</div>
+              <input type="checkbox" id="mug" />Mug</br>
+                <input type="checkbox" id="pin" />Silver pin</br>
+                <input type="checkbox" id="wood"/>Wooden souvenir</br>
+                
+            </div>
+          </div>
+      
+         
+      
+          <br>
+        <button type="button" onclick="display()" >ADD TO ORDER</button>
+        <button type="button" onclick="confmsg()">PLACE ORDER</button>
+      <br><br>
+
+      <form id="show" style="display: none;">
+        <table id="tbOrder" width="900px" border="1px">
+            <tr><th colspan="7">Current Order Details</th></tr>
+            <tr><td style="font-weight:bold">Order No</td>
+                <td style="font-weight:bold">Tea choice</td>
+                <td style="font-weight:bold">Packaging type</td>
+                <td style="font-weight:bold">Extras - Mug</td>
+                <td style="font-weight:bold">Extras - Silver pin</td>
+                <td style="font-weight:bold">Extras - souvenir</td>
+    
+                <td style="font-weight:bold">Total Amount</td>
+            </tr>
+        </table>
+        </br>
+        <p> Grand Total:</p><input type="text" id="lblgrandTotal" /> LKR
+    </form>
+        </div>
+      </div>
+      
+      
+
+
+
+
+
+
+<<footer class="footer">
+  <div class="l-footer">
+    <h1><img src="" alt=""></h1>
+
+    <u><h2>ABOUT US</h2></u>
+    <p>
+      We are here to provide you with the best local tea and much more. You will be able to learn more about our local tea and how it impacts the countries economy.
+      </p>
+  </div>
+
+  <ul class="r-footer">
+    <li>
+      <u><h2>CONTACT US</h2></u>
+      <ul class="box1">
+        <li>Address  : no:3 st annes road colombo</li>
+        <li>Telephone: 0767066844</li>
+        <li>Email    : dilki.delgoda@gmail.com</li>
+        
+
+      </ul>
+    </li>
+    <li class="features">
+     
+    </li>
+     
+    <li>
+       
+        <br>
+        <img class="imgf" src="images/logo2.jpg" alt="">
+  
+        </ul>
+      </li> 
+
+   
+
+  </ul>
+  
+
+
+</footer>
+
+</div>
+
+</body>
+</html>
